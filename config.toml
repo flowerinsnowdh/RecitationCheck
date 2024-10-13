@@ -1,0 +1,21 @@
+# 本文件引用了苏白学堂的教学内容
+# 摘录自https://www.bilibili.com/video/av24054870
+
+dict = 'https://wugniu.com/search?char={.word}&table=suzhou_zi'
+
+[[rows]]
+desc = '称呼（你、我、Ta...）'
+[rows.words]
+'我' = 'ngou6'
+'你' = '（倷）ne6'
+'Ta（两种发音）' = '（俚）li、唔倷 n ne'
+'我们' = '（伲） gni6'
+'你们' = '（唔笃） n toq'
+'他们' = '（俚笃）li toq'
+
+[[rows]]
+desc = '打招呼（你好）'
+[rows.words]
+'你好！' = '（倷好！）ne hau'
+'早上好！' = '（早浪好！）tsau laon hau'
+'很久不见。' = '（长远弗见。）zan yoe feq cie'
