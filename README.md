@@ -15,8 +15,8 @@
 
 此时输入数字即可开始抽查
 
-```shell
-你
+```console
+我
 ```
 
 此时输入`ok`进行下一个
@@ -42,4 +42,7 @@
 - [go](https://github.com/golang/go) Copyright 2009 The Go Authors. ([BSD 3-Clause "New" or "Revised" License](https://github.com/golang/go/blob/master/LICENSE))
 - [go-toml v2](https://github.com/pelletier/go-toml) Copyright (c) 2021 - 2023 Thomas Pelletier [MIT License](https://github.com/pelletier/go-toml/blob/v2/LICENSE)
 
-[config.toml](config.toml)文件中使用了苏白学堂的教学内容 [av24054870](https://www.bilibili.com/video/av24054870)，侵权请联系我，我会第一时间删除
+[config.toml](config.toml)文件中使用了苏白学堂的教学内容
+- 学堂版拼音摘录自 [av11828488](https://www.bilibili.com/video/av11828488)
+- 入门日常语摘录自 [av24054870](https://www.bilibili.com/video/av24054870)
+- 侵权请联系我，我会第一时间删除

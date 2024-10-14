@@ -10,10 +10,9 @@ import (
     "bufio"
     "fmt"
     "github.com/flowerinsnowdh/recitation-check/config"
+    "github.com/flowerinsnowdh/recitation-check/util"
     "github.com/pelletier/go-toml/v2"
     "os"
-    "os/exec"
-    "runtime"
     "strconv"
     "strings"
 )
@@ -47,12 +46,21 @@ func main() {
         os.Exit(1)
     }
 
-    var words map[string]string = conf.Rows[choose].Words
+    var words []config.StringPair = make([]config.StringPair, 0)
+
+    for k, v := range conf.Rows[choose].Words {
+        words = append(words, config.StringPair{
+            Key: k,
+            Val: v,
+        })
+    }
+
+    util.FisherYates(words) // 打乱顺序
 
     var scanner *bufio.Reader = bufio.NewReader(os.Stdin)
 
-    for k, v := range words {
-        fmt.Println(k)
+    for _, word := range words {
+        fmt.Println(word.Key)
         for {
             if data, _, err := scanner.ReadLine(); err != nil {
                 panic(err)
@@ -62,12 +70,12 @@ func main() {
                     break
                 }
                 if strings.EqualFold(line, "tip") {
-                    fmt.Println(v)
+                    fmt.Println(word.Val)
                 } else if strings.EqualFold(line, "quit") || strings.EqualFold(line, "exit") {
                     fmt.Println("bye")
                     os.Exit(0)
                 } else if strings.EqualFold(line, "?") {
-                    if err := openBrowser(strings.ReplaceAll(conf.Dict, "{.word}", k)); err != nil {
+                    if err := util.OpenBrowser(strings.ReplaceAll(conf.Dict, "{.word}", word.Key)); err != nil {
                         panic(err)
                     }
                 } else {
@@ -78,22 +86,4 @@ func main() {
     }
 }
 
-func openBrowser(url string) error {
-    var cmd string
-    var args []string
 
-    switch runtime.GOOS {
-    case "windows":
-        cmd = "rundll32"
-        args = []string{"url.dll,FileProtocolHandler", url}
-    case "linux":
-        cmd = "xdg-open"
-        args = []string{url}
-    default:
-        var err error
-        _, err = fmt.Fprintln(os.Stderr, "unsupported platform")
-        return err
-    }
-
-    return exec.Command(cmd, args...).Start()
-}

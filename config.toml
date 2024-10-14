@@ -1,7 +1,20 @@
 # 本文件引用了苏白学堂的教学内容
-# 摘录自https://www.bilibili.com/video/av24054870
+# 学堂版拼音摘录自 [av11828488](https://www.bilibili.com/video/av11828488)
+# 入门日常语摘录自 [av24054870](https://www.bilibili.com/video/av24054870)
+# 侵权请联系我，我会第一时间删除
 
 dict = 'https://wugniu.com/search?char={.word}&table=suzhou_zi'
+
+[[rows]]
+desc = '七声调（按调类）'
+[rows.words]
+'1' = '阴平44（金：cin1）'
+'2' = '阳平223（琴：jin2）'
+'3' = '上声51（紧：cin3）'
+'5' = '阴去523（劲：cin5）'
+'6' = '阳去231（近：jin6）'
+'7' = '阴入43（急：ciq7）'
+'8' = '阳入23（及：jiq8）'
 
 [[rows]]
 desc = '称呼（你、我、Ta...）'
@@ -19,3 +32,6 @@ desc = '打招呼（你好）'
 '你好！' = '（倷好！）ne hau'
 '早上好！' = '（早浪好！）tsau laon hau'
 '很久不见。' = '（长远弗见。）zan yoe feq cie'
+'再见。' = '（再见）tse ue'
+'一会见儿。' = '（晏歇会。）e shiq ue'
+'明天见。' = '（明朝会。）men tsau ue'

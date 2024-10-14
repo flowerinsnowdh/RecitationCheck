@@ -16,3 +16,8 @@ type RowObject struct {
     Desc  string            `toml:"desc"`
     Words map[string]string `toml:"words"`
 }
+
+type StringPair struct {
+    Key string
+    Val string
+}
