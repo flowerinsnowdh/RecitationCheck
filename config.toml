@@ -17,6 +17,14 @@ desc = '七声调（按调类）'
 '8' = '阳入23（及：jiq8）'
 
 [[rows]]
+desc = '韵母a e i o'
+[rows.words]
+'a' = '[ɑ]'
+'e' = '[e]'
+'i' = '[i]'
+'o' = '[o]'
+
+[[rows]]
 desc = '称呼（你、我、Ta...）'
 [rows.words]
 '我' = 'ngou6'
