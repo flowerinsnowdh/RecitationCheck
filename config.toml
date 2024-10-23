@@ -25,7 +25,7 @@ desc = '韵母a e i o'
 'o' = '[o]'
 
 [[rows]]
-desc = '韵母a e i o（声调）'
+desc = '韵母a e i o（拼读）'
 [rows.words]
 '挨 a1' = 'unavailable'
 '矮 a3' = 'unavailable'
@@ -51,7 +51,7 @@ desc = '韵母au ie oe iu'
 'iu' = '[y]'
 
 [[rows]]
-desc = '韵母au ie oe iu（声调）'
+desc = '韵母au ie oe iu（拼读）'
 [rows.words]
 '凹 au1' = 'unavailable'
 '襖 au3' = 'unavailable'
@@ -77,7 +77,7 @@ desc = '声母p ph b'
 'b' = '[b]'
 
 [[rows]]
-desc = '声母p ph b（声调）'
+desc = '声母p ph b（拼读）'
 [rows.words]
 '爸 pa1' = 'unavailable'
 'pa3' = 'unavailable'
@@ -112,7 +112,7 @@ desc = '声母m f v'
 'v' = '[v]'
 
 [[rows]]
-desc = '声母m f v（声调）'
+desc = '声母m f v（拼读）'
 [rows.words]
 '煤 me2' = 'unavailable'
 '妹 me6' = 'unavailable'
@@ -130,7 +130,7 @@ desc = '声母m f v（声调）'
 [[rows]]
 desc = '整体认读音节pu puh bu fu vu'
 [rows.words]
-'u' = '[u]'
+'u' = '[u]' # u 不单独发音
 
 [[rows]]
 desc = '整体认读音节pu puh bu fu vu（音调）'
@@ -148,6 +148,35 @@ desc = '整体认读音节pu puh bu fu vu（音调）'
 '付 fu5' = 'unavailable'
 '舞 vu2' = 'unavailable'
 '武 vu6' = 'unavailable'
+
+[[rows]]
+desc = '声母t th d'
+[rows.words]
+'t' = '[t]'
+'th' = '[tʰ]'
+'d' = '[d]'
+
+[[rows]]
+desc = '声母t th d（拼读）'
+[rows.words]
+'刀 tau1' = 'unavailable'
+'捣 tau3' = 'unavailable'
+'到 tau5' = 'unavailable'
+'巅 tie1' = 'unavailable'
+'典 tie3' = 'unavailable'
+'店 tie5' = 'unavailable'
+'梯 thi1' = 'unavailable'
+'体 thi3' = 'unavailable'
+'替 thi5' = 'unavailable'
+'天 thie1' = 'unavailable'
+'舔 thie3' = 'unavailable'
+'汏 da6' = 'unavailable'
+'台 de2' = 'unavailable'
+'蛋 de6' = 'unavailable'
+'桃 dau2' = 'unavailable'
+'道 dau6' = 'unavailable'
+'团 doe2' = 'unavailable'
+'段 doe6' = 'unavailable'
 
 [[rows]]
 desc = '称呼（你、我、Ta...）'
