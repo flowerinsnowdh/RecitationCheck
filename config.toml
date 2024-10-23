@@ -25,6 +25,131 @@ desc = '韵母a e i o'
 'o' = '[o]'
 
 [[rows]]
+desc = '韵母a e i o（声调）'
+[rows.words]
+'挨 a1' = 'unavailable'
+'矮 a3' = 'unavailable'
+'a5' = 'unavailable'
+'哀 e1' = 'unavailable'
+'e3' = 'unavailable'
+'爱 e5' = 'unavailable'
+'衣 i1' = 'unavailable'
+'移 yi2' = 'unavailable'
+'椅 i3' = 'unavailable'
+'意 i5' = 'unavailable'
+'懿 yi6' = 'unavailable'
+'蛙 o1' = 'unavailable'
+'o3' = 'unavailable'
+'o5' = 'unavailable'
+
+[[rows]]
+desc = '韵母au ie oe iu'
+[rows.words]
+'au' = '[æ]'
+'ie' = '[iɪ]'
+'oe' = '[ɸ]'
+'iu' = '[y]'
+
+[[rows]]
+desc = '韵母au ie oe iu（声调）'
+[rows.words]
+'凹 au1' = 'unavailable'
+'襖 au3' = 'unavailable'
+'澳 au5' = 'unavailable'
+'烟 ie1' = 'unavailable'
+'言 ye2' = 'unavailable'
+'演 ie3' = 'unavailable'
+'燕 ie5' = 'unavailable'
+'械 ye6' = 'unavailable'
+'安 oe1' = 'unavailable'
+'oe3' = 'unavailable'
+'芋 iu1' = 'unavailable'
+'yu2' = 'unavailable'
+'iu3' = 'unavailable'
+'雨 iu5' = 'unavailable'
+'yu6' = 'unavailable'
+
+[[rows]]
+desc = '声母p ph b'
+[rows.words]
+'p' = '[p]'
+'ph' = '[ph]'
+'b' = '[b]'
+
+[[rows]]
+desc = '声母p ph b（声调）'
+[rows.words]
+'爸 pa1' = 'unavailable'
+'pa3' = 'unavailable'
+'湃 pa5' = 'unavailable'
+'杯 pe1' = 'unavailable'
+'板 pe3' = 'unavailable'
+'輩 pe5' = 'unavailable'
+'pi1' = 'unavailable'
+'底 pi3' = 'unavailable'
+'臂 pi5' = 'unavailable'
+'疤 po1' = 'unavailable'
+'靶 po3' = 'unavailable'
+'霸 po5' = 'unavailable'
+'邳 phe1' = 'unavailable'
+'phe3' = 'unavailable'
+'配 phe5' = 'unavailable'
+'pho1' = 'unavailable'
+'pho3' = 'unavailable'
+'怕 pho5' = 'unavailable'
+'牌 ba2' = 'unavailable'
+'ba6' = 'unavailable'
+'皮 bi2' = 'unavailable'
+'币 bi6' = 'unavailable'
+'扒 bo2' = 'unavailable'
+'bo6' = 'unavailable'
+
+[[rows]]
+desc = '声母m f v'
+[rows.words]
+'m' = '[m]'
+'f' = '[f]'
+'v' = '[v]'
+
+[[rows]]
+desc = '声母m f v（声调）'
+[rows.words]
+'煤 me2' = 'unavailable'
+'妹 me6' = 'unavailable'
+'麻 mo2' = 'unavailable'
+'马 mo6' = 'unavailable'
+'翻 fe1' = 'unavailable'
+'反 fe3' = 'unavailable'
+'販 fe5' = 'unavailable'
+'飞 fi1' = 'unavailable'
+'匪 fi3' = 'unavailable'
+'沸 fi5' = 'unavailable'
+'蜉 ve2' = 'unavailable'
+'饭 ve6' = 'unavailable'
+
+[[rows]]
+desc = '整体认读音节pu puh bu fu vu'
+[rows.words]
+'u' = '[u]'
+
+[[rows]]
+desc = '整体认读音节pu puh bu fu vu（音调）'
+[rows.words]
+'玻 pu1' = 'unavailable'
+'pu3' = 'unavailable'
+'布 pu5' = 'unavailable'
+'坡 phu1' = 'unavailable'
+'圃 phu3' = 'unavailable'
+'破 phu5' = 'unavailable'
+'婆 bu2' = 'unavailable'
+'部 bu6' = 'unavailable'
+'夫 fu1' = 'unavailable'
+'斧 fu3' = 'unavailable'
+'付 fu5' = 'unavailable'
+'舞 vu2' = 'unavailable'
+'武 vu6' = 'unavailable'
+
+[[rows]]
 desc = '称呼（你、我、Ta...）'
 [rows.words]
 '我' = 'ngou6'
