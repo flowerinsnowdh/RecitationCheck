@@ -179,6 +179,69 @@ desc = '声母t th d（拼读）'
 '段 doe6' = 'unavailable'
 
 [[rows]]
+desc = '声母n l'
+[rows.words]
+'n' = '[n]'
+'l' = '[l]'
+
+[[rows]]
+desc = '声母n l（拼读）'
+[rows.words]
+'那 na1' = 'unavailable'
+'奶 na6' = 'unavailable'
+'囡 noe1' = 'unavailable'
+'男 noe2' = 'unavailable'
+'暖 noe6' = 'unavailable'
+'雷 le2' = 'unavailable'
+'儡 le3' = 'unavailable'
+'懒 le6' = 'unavailable'
+'俚 li1' = 'unavailable'
+'梨 li2' = 'unavailable'
+'屡 li3' = 'unavailable'
+'里 li6' = 'unavailable'
+'嘮 lau1' = 'unavailable'
+'牢 lau2' = 'unavailable'
+'lau3' = 'unavailable'
+'老 lau6' = 'unavailable'
+'莲 lie2' = 'unavailable'
+'脸 lie3' = 'unavailable'
+'练 lie6' = 'unavailable'
+
+
+[[rows]]
+desc = '声母k kh g ng'
+[rows.words]
+'k' = '[k]'
+'kh' = '[kʰ]'
+'g' = '[g]'
+'ng' = '[ng]'
+
+[[rows]]
+desc = '声母k kh g ng（拼读）'
+[rows.words]
+'街 ka1' = 'unavailable'
+'ka3' = 'unavailable'
+'ka5' = 'unavailable'
+'该 ke1' = 'unavailable'
+'ke3' = 'unavailable'
+'盖 ke5' = 'unavailable'
+'瓜 ko1' = 'unavailable'
+'ko5' = 'unavailable'
+'糕 kau1' = 'unavailable'
+'稿 kau3' = 'unavailable'
+'告 kau5' = 'unavailable'
+'kha1' = 'unavailable'
+'卡 kha3' = 'unavailable'
+'khau1' = 'unavailable'
+'考 khau3' = 'unavailable'
+'烤 khau5' = 'unavailable'
+'茄 ga2' = 'unavailable'
+'隑 ge6' = 'unavailable'
+'牙 nga2' = 'unavailable'
+'牙 nga2' = 'unavailable'
+
+
+[[rows]]
 desc = '称呼（你、我、Ta...）'
 [rows.words]
 '我' = 'ngou6'
